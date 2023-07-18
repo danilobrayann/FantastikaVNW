@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: #252525;
+}
+
+.Container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 6vw;
+}
+
+.Logo{
+    width: 30px;
+}
+.TextoLogo{
+    color: white;
+}
+
+.RedeSocial{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+}
+
+.LogoSocial{
+    width: 25px;
+}
