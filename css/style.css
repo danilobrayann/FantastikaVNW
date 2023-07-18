@@ -1,37 +1,207 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
-header{
+
+
+/*Cabeçalho e meu conteudo como logo, redesSocial 👈👇*/
+header {
     display: flex;
     justify-content: space-around;
     height: 10vh;
     background-color: #252525;
 }
 
-.Container{
-display: flex;
-justify-content: space-around;
-align-items: center;
-width: 6vw;
+.Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 6vw;
 }
 
-.Logo{
+.Logo {
     width: 30px;
+
 }
-.TextoLogo{
+
+.TextoLogo {
     color: white;
 }
 
-.RedeSocial{
+.RedeSocial {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 10vw;
+    cursor: pointer;
 }
 
-.LogoSocial{
+.LogoSocial {
     width: 25px;
+}
+
+/*fim 🚀*/
+
+/*Boas vindas à nossa inauguração , Primeira Section 👈👇*/
+.Inauguracao {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/Grupo\ 486@2x.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.ContainerTexto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 15vh;
+    height: 30vh;
+}
+
+.TextoInauguracao {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.LogoTexto {
+    width: 20vh;
+
+}
+
+/*fim 🚀*/
+/*Fale com Nosco Segunda Section👈👇*/
+
+.FaleConosco {
+    display: flex;
+    align-items: center;
+    background-image: url(../img/Interseção\ 16@2x.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.TextoFaleConosco {
+    position: absolute;
+    left: 62px;
+    height: 50vh;
+    width: 50vw;
+   
+}
+
+.TituloFaleConosco {
+font-size: 35px;
+color: #3A342F;
+}
+.ParagrafFaleComNosco{
+    font-size: 25px;
+    color: #3A342F;
+}
+.containerButton{
+    display: flex;
+    align-items: end;
+    height: 20vh;
+    
+}
+.buttonFaleConosco{
+    background-color: #3A342F;
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    height: 8vh;
+    width: 15vw;
+    cursor: pointer;
+    
+}
+/*fim 🚀*/
+
+/*Resposividade 👈👇*/
+
+/* Media query para telas menores */
+@media screen and (max-width: 700px) {
+
+    .Container {
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+    }
+
+    .Logo {
+        width: 60px;
+
+    }
+
+    #Social {
+        display: none;
+    }
+
+
+
+    .TextoLogo {
+        font-size: 30px;
+    }
+
+    .RedeSocial {
+        width: 40vw;
+    }
+
+    .LogoSocial {
+        width: 60px;
+    }
+
+    .buttonFaleConosco{
+        font-size: 20px;
+        width: 25vw;
+    }
+}
+
+
+
+/* Media query para telas menores */
+@media screen and (max-width: 500px) {
+
+    .Container {
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+    }
+
+    .Logo {
+        width: 60px;
+
+    }
+
+    #Social {
+        display: none;
+    }
+
+
+
+    .TextoLogo {
+        font-size: 30px;
+    }
+
+    .RedeSocial {
+        width: 40vw;
+    }
+
+    .LogoSocial {
+        width: 60px;
+    }
+
+    .buttonFaleConosco{
+        font-size: 20px;
+        width: 25vw;
+    }
 }
