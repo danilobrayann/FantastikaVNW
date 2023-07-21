@@ -69,7 +69,7 @@ header {
 .TextoInauguracao {
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
 }
@@ -159,7 +159,9 @@ color: #3A342F;
     .LogoSocial {
         width: 60px;
     }
-
+    .FaleConosco{
+        flex-direction: column;
+    }
     .buttonFaleConosco{
         font-size: 20px;
         width: 25vw;
