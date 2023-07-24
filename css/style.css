@@ -96,24 +96,27 @@ header {
     left: 62px;
     height: 50vh;
     width: 50vw;
-   
+
 }
 
 .TituloFaleConosco {
-font-size: 35px;
-color: #3A342F;
+    font-size: 35px;
+    color: #3A342F;
 }
-.ParagrafFaleComNosco{
+
+.ParagrafFaleComNosco {
     font-size: 25px;
     color: #3A342F;
 }
-.containerButton{
+
+.containerButton {
     display: flex;
     align-items: end;
     height: 20vh;
-    
+
 }
-.buttonFaleConosco{
+
+.buttonFaleConosco {
     background-color: #3A342F;
     font-size: 15px;
     color: white;
@@ -122,49 +125,51 @@ color: #3A342F;
     height: 8vh;
     width: 15vw;
     cursor: pointer;
-    
+
 }
+
 /*fim 🚀*/
 
 /* terceira Section👈👇*/
-.Mordomia{
+.Mordomia {
     display: flex;
     align-items: center;
     background-image: url(../img/Grupo\ 480@2x.png);
     height: 150vh;
     background-size: cover;
-    background-position: center center; 
+    background-position: center center;
 }
 
-.MordomiaTexto{
+.MordomiaTexto {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 40vw;
     position: relative;
     left: 50vw;
-   
-    
-  
+
+
+
 }
-.MordomiaH1{
+
+.MordomiaH1 {
     color: white;
     font-size: 50px;
 }
 
-p{
+p {
     color: white;
     font-size: 25px;
 }
 
-.buttonMordomia{
+.buttonMordomia {
     height: 15vh;
 }
 
-button{
+button {
     background-color: white;
     font-size: 15px;
-    color:black;
+    color: black;
     border-radius: 25px;
     border: none;
     height: 8vh;
@@ -178,7 +183,7 @@ button{
 
 /* quarta Section👈👇*/
 
-.SectionQuarta{
+.SectionQuarta {
     display: flex;
     justify-content: center;
     gap: 85PX;
@@ -186,17 +191,57 @@ button{
     height: 25vh;
     background-color: white;
 }
-.textoQuarta{
+
+.textoQuarta {
     color: palevioletred;
 }
+
 /*fim 🚀*/
 
+/* footer👈👇*/
+
+footer {
+
+    height: 80vh;
+    background-color: palevioletred;
+}
+
+.TextoFooter {
+    color: white;
+
+}
+
+.TextoBaixo {
+    display: inline-block;
+    padding: 30px;
+    margin-left: 90px;
+    height: 25vh;
+
+
+
+
+}
+
+.Container2 {
+    display: none;
+
+}
+
+.RedeSocial2 {
+    display: none;
+}
+
+
+/*fim 🚀*/
 
 /*Resposividade 👈👇*/
 
 /* Media query para telas menores */
 @media screen and (max-width: 700px) {
 
+    body{
+width: 100vw;
+    }
     .Container {
         align-items: center;
         justify-content: space-between;
@@ -225,24 +270,58 @@ button{
     .LogoSocial {
         width: 60px;
     }
-    .FaleConosco{
+
+    .FaleConosco {
         flex-direction: column;
     }
-    .buttonFaleConosco{
+
+    .buttonFaleConosco {
         font-size: 20px;
         width: 25vw;
     }
 
-    button{
+    button {
         width: 25vw;
     }
+
+    .Container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .RedeSocial2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    footer {
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .LogoSocial2 {
+        padding: 20px;
+
+    }
+.SectionQuarta{
+    width: 100%;
+    display: flex;
+        flex-direction: column;
+}
 }
 
 
 
 /* Media query para telas menores */
 @media screen and (max-width: 500px) {
-
+    body{
+        width: 100%;
+            }
     .Container {
         align-items: center;
         justify-content: space-between;
@@ -272,8 +351,47 @@ button{
         width: 60px;
     }
 
-    .buttonFaleConosco{
+    .buttonFaleConosco {
         font-size: 20px;
         width: 25vw;
     }
+
+
+    .Container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .RedeSocial2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    footer {
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .LogoSocial2 {
+        padding: 20px;
+
+    }
+
+    .SectionQuarta{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 414px){
+    body{
+        width: 100%;
+            }
 }
