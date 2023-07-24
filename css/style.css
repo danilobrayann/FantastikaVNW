@@ -52,7 +52,7 @@ header {
     display: flex;
     justify-content: center;
     background-image: url(../img/Grupo\ 486@2x.png);
-    height: 100vh;
+    height: 150vh;
     background-size: cover;
     background-position: center center;
 }
@@ -86,7 +86,7 @@ header {
     display: flex;
     align-items: center;
     background-image: url(../img/Interseção\ 16@2x.png);
-    height: 100vh;
+    height: 150vh;
     background-size: cover;
     background-position: center center;
 }
@@ -126,6 +126,72 @@ color: #3A342F;
 }
 /*fim 🚀*/
 
+/* terceira Section👈👇*/
+.Mordomia{
+    display: flex;
+    align-items: center;
+    background-image: url(../img/Grupo\ 480@2x.png);
+    height: 150vh;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.MordomiaTexto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    position: relative;
+    left: 50vw;
+   
+    
+  
+}
+.MordomiaH1{
+    color: white;
+    font-size: 50px;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+}
+
+.buttonMordomia{
+    height: 15vh;
+}
+
+button{
+    background-color: white;
+    font-size: 15px;
+    color:black;
+    border-radius: 25px;
+    border: none;
+    height: 8vh;
+    width: 15vw;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*fim 🚀*/
+
+/* quarta Section👈👇*/
+
+.SectionQuarta{
+    display: flex;
+    justify-content: center;
+    gap: 85PX;
+    align-items: center;
+    height: 25vh;
+    background-color: white;
+}
+.textoQuarta{
+    color: palevioletred;
+}
+/*fim 🚀*/
+
+
 /*Resposividade 👈👇*/
 
 /* Media query para telas menores */
@@ -164,6 +230,10 @@ color: #3A342F;
     }
     .buttonFaleConosco{
         font-size: 20px;
+        width: 25vw;
+    }
+
+    button{
         width: 25vw;
     }
 }
